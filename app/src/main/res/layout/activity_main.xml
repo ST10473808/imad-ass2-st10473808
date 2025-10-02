@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:textAlignment="center">
+
+    <!-- Header text -->
+    <TextView
+        android:id="@+id/Header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a Flashcard game to test your knowledge about history.
+         Please select true or false"
+        android:padding="16dp"
+        android:textSize="20dp"/>
+
+    <!-- Start button -->
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Start" />
+
+        <!-- Question text -->
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question goes here"
+        android:visibility="gone"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <!-- True and False buttons -->
+    <Button
+        android:id="@+id/True"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="True"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/False"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="False"
+        android:visibility="gone"/>
+
+        <!-- Next question button -->
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:visibility="gone" />
+
+    <!-- Restart button -->
+    <Button
+        android:id="@+id/Restart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <!-- Score text -->
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score goes here"
+        android:visibility="gone"
+        android:padding="16dp"/>
+
+    <!-- Quit button -->
+   <Button
+       android:id="@+id/Quit"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Quit"
+       android:visibility="gone" />
+
+    <!-- Review button -->
+    <Button
+        android:id="@+id/Review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:visibility="gone" />
+
+</LinearLayout>
